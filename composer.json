@@ -1,0 +1,20 @@
+{
+  "name": "apedik/cacheautoclean",
+  "version": "0.1.0",
+  "description": "clean config cache automatically",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Apedik\\CacheAutoClean\\": ""
+    }
+  }
+}
